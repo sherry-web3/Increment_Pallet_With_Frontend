@@ -1,0 +1,122 @@
+target/
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependencies
+node_modules/
+.pnpm/
+.yarn/
+.yarn-cache/
+.yarnrc.yml
+.npmrc
+
+# Build files
+build/
+dist/
+.temp/
+.cache/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# macOS system files
+.DS_Store
+
+# Substrate-specific ignores
+/target/
+/node_modules/
+/cargo-lock.json
+/.rustup/
+/.cargo/
+/substrate-node-template/
+/substrate-contracts-node/
+/substrate-api-sidecar/
+/substrate-front-end-template/
+/substrate/.gitignore
+
+# Rust and Cargo
+Cargo.lock
+target/
+**/target/
+*.rs.bk
+
+# WASM build artifacts
+wasm_binary.rs
+wasm_binary_bg.wasm
+wasm_binary_bg.wasm.d.ts
+
+# Rust artifacts
+*.rlib
+*.rmeta
+
+# Generated files
+*.orig
+*.rej
+*.so
+*.dylib
+*.dll
+
+# Substrate chain database
+/db
+/chains
+/parachains
+/network
+
+# Parity DB
+paritydb/
+.paritydb
+
+# Remove artifacts from chain storage
+*.db
+*.db.panic
+*.db.lock
+
+# Exclude built React frontend in Substrate projects
+packages/react-app/build/
+packages/react-app/node_modules/
+
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
