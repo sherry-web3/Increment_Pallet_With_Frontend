@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <h1>Connecting substrate with polkadot</h1>
+    <h2>Increment Pallet substrate Polkadot</h2>
 
     
      <SherryModule />
